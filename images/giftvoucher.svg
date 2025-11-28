@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+  <rect width="100%" height="100%" rx="24" fill="#fffdf6" />
+  <g font-family="Roboto, Arial" text-anchor="middle" fill="#9c6f00">
+    <rect x="80" y="90" width="120" height="90" rx="8" fill="#ffd97a"/>
+    <text x="360" y="200" font-size="36" font-weight="700">Gift Voucher</text>
+    <text x="360" y="240" font-size="16">Redeem at checkout</text>
+  </g>
+</svg>

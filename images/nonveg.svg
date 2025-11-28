@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+  <rect width="100%" height="100%" rx="24" fill="#fff7f0" />
+  <g font-family="Roboto, Arial" text-anchor="middle" fill="#b43f2b">
+    <circle cx="120" cy="120" r="72" fill="#d86b4f"/>
+    <text x="300" y="200" font-size="40" font-weight="700">Non-Veg Starters</text>
+    <text x="300" y="250" font-size="18">Grilled • Spicy • Tasty</text>
+  </g>
+</svg>

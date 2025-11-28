@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="140" viewBox="0 0 160 140">
+  <rect width="100%" height="100%" fill="#fff8e6" rx="16"/>
+  <circle cx="40" cy="70" r="28" fill="#d0b200"/>
+  <text x="92" y="78" font-family="Roboto, Arial" font-weight="700" font-size="18" fill="#183b56">FoodMunch</text>
+</svg>

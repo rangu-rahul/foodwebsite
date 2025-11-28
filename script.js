@@ -9,6 +9,19 @@ document.querySelectorAll('a.nav-link, .custom-button, .custom-outline-button').
     });
 });
 
+// Log and fallback for broken images
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('img').forEach(img => {
+        img.addEventListener('error', () => {
+            console.error('Image failed to load:', img.src);
+            if (!img.dataset.fallbackApplied) {
+                img.dataset.fallbackApplied = 'true';
+                img.src = 'images/placeholder.svg';
+            }
+        });
+    });
+});
+
 // Scroll to "Explore Menu" on "View Menu" button
 document.querySelector('.banner-section-bg-container .custom-button').addEventListener('click', () => {
     document.querySelector('#exploreMenuSection').scrollIntoView({ behavior: 'smooth' });
